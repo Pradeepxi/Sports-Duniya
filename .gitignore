@@ -1,0 +1,42 @@
+# Node modules
+node_modules/
+
+# Build output (for React)
+build/
+
+# Log files
+*.log
+
+# npm package lock file (optional)
+package-lock.json
+
+# Environment files (to avoid committing sensitive information)
+.env
+
+# Firebase configuration files (if you have any)
+firebase.json
+.firebaserc
+
+# IDE files (for VS Code or JetBrains)
+.vscode/
+.idea/
+
+# macOS and Windows system files
+.DS_Store
+Thumbs.db
+
+# Test coverage folder (if you're using a testing tool that generates coverage reports)
+coverage/
+
+# React testing dependencies (if you use jest, mocha, etc.)
+jest/
+
+# Ignore any temporary or backup files
+*.bak
+*.swp
+
+# Ignore the compiled files for Babel (if you're transpiling with Babel)
+**/*.js.map
+
+# Ignore all .env.* files (if you use different env files)
+.env.*
